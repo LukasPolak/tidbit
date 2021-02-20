@@ -11,28 +11,39 @@ export default {
   ),
   head: (
     <>
-      <meta name="msapplication-TileColor" content="#ffffff" />
-      <meta name="theme-color" content="#ffffff" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta httpEquiv="Content-Language" content="en" />
+      <title>TidBit - a small piece of interesting information</title>
+      <meta
+        name="title"
+        content="TidBit - a small piece of interesting information"
+      />
       <meta
         name="description"
         content="TidBit - a small piece of interesting information"
       />
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://tidbit.dev/" />
       <meta
-        name="og:description"
+        property="og:title"
         content="TidBit - a small piece of interesting information"
       />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://tidbit.dev/cover.png" />
-      <meta name="twitter:site:domain" content="tidbit.dev/" />
-      <meta name="twitter:url" content="https://tidbit.dev/" />
       <meta
-        name="og:title"
+        property="og:description"
         content="TidBit - a small piece of interesting information"
       />
-      <meta name="og:image" content="https://tidbit.dev/cover.png" />
-      <meta name="apple-mobile-web-app-title" content="TidBit" />
+      <meta property="og:image" content="https://tidbit.dev/cover.png" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://tidbit.dev/" />
+      <meta
+        property="twitter:title"
+        content="TidBit - a small piece of interesting information"
+      />
+      <meta
+        property="twitter:description"
+        content="TidBit - a small piece of interesting information"
+      />
+      <meta property="twitter:image" content="https://tidbit.dev/cover.png" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
