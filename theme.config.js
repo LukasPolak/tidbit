@@ -1,9 +1,9 @@
 export default {
   repository: 'https://github.com/LukasPolak/tidbit',
-  titleSuffix: ' – Tidbit',
+  titleSuffix: ' – TidBit',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Tidbit</span>
+      <span className="mr-2 font-extrabold hidden md:inline">TidBit</span>
       <span className="text-gray-600 font-normal hidden md:inline">
         a small piece of interesting information
       </span>
@@ -17,22 +17,22 @@ export default {
       <meta httpEquiv="Content-Language" content="en" />
       <meta
         name="description"
-        content="Tidbit - a small piece of interesting information"
+        content="TidBit - a small piece of interesting information"
       />
       <meta
         name="og:description"
-        content="Tidbit - a small piece of interesting information"
+        content="TidBit - a small piece of interesting information"
       />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="" />
+      <meta name="twitter:image" content="https://tidbit.dev/cover.png" />
       <meta name="twitter:site:domain" content="tidbit.dev/" />
       <meta name="twitter:url" content="https://tidbit.dev/" />
       <meta
         name="og:title"
-        content="Tidbit - a small piece of interesting information"
+        content="TidBit - a small piece of interesting information"
       />
-      <meta name="og:image" content="" />
-      <meta name="apple-mobile-web-app-title" content="Tidbit" />
+      <meta name="og:image" content="https://tidbit.dev/cover.png" />
+      <meta name="apple-mobile-web-app-title" content="TidBit" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -70,5 +70,6 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditOnGitHubLink: true,
-  footerText: <>MIT {new Date().getFullYear()} © Tidbit.</>,
+  docsRepository: '',
+  footerText: <>MIT {new Date().getFullYear()} © TidBit.</>,
 }
